@@ -1,0 +1,5 @@
+VPC -> Virtual Private Cloud 
+
+Inside public cloud aws creates private cloud using vpc which helps to create on-premise type architecture
+
+Internet (example.com/172.30.21.3) ->  Internet gateway -> public subnet -> Load Balancer ->security group -> private subnet (using routing table)
